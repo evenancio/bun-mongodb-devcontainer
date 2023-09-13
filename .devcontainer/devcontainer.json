@@ -1,0 +1,19 @@
+{
+  "name": "Bun & Mongo DB",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [3000, 27017],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "w0o0o.bun-scripts",
+        "oven.bun-vscode",
+        "PKief.material-icon-theme",
+        "mongodb.mongodb-vscode",
+        "yoavbls.pretty-ts-errors",
+        "pmneo.tsimporter"
+      ]
+    }
+  }
+}
